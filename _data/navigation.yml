@@ -1,7 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "Home"
+    url: b8739.github.io
+  - title: "UX"
+    url: b8739.github.io
+  - title: "Web"
+    url: b8739.github.io
+  - title: "Data Science"
+    url: b8739.github.io
+  - title: "Git"
+    url: b8739.github.io
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
