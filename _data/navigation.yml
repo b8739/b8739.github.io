@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: "/"
   - title: "Categories"
-    url: "/categories/"
+    url: "/category/"
 
 
 #  side바
