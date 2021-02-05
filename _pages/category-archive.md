@@ -1,6 +1,6 @@
 ---
-title: "Posts by Category"
+title: "포스팅 목록"
 layout: categories
-permalink: /categories/
+permalink: /category/
 author_profile: true
 ---

@@ -16,41 +16,41 @@ sidenav:
   - title: Front-End
     children:
       - title: "Javascript"
-        url: /docs/quick-start-guide/
+        url: /categories/javascript/
       - title: "React"
-        url: /docs/quick-start-guide/
+        url: /categories/react/
 
   - title: Back-End
     children:
       - title: "Node-js"
-        url: /docs/quick-start-guide/
+        url: /categories/nodejs/
       - title: "Flask"
-        url: /docs/quick-start-guide/
+        url: /categories/flask/
 
   - title: UX Design
     children:
       - title: "UX Case Study"
-        url: /docs/posts/
+        url: /categories/ux_casestudy/
       - title: "UI Analysis"
-        url: /docs/pages/
+        url: /categories/ui_analysis/
 
   - title: Projects
     children:
       - title: "인체측정 웹 개발"
-        url: /docs/posts/
+        url: /categories/anthropometric/
       - title: "머신러닝 웹 개발"
-        url: /docs/pages/
+        url:  /categories/project_ml/
 
   - title: Etc
     children:
       - title: "Git"
-        url: /docs/stylesheets/
+        url:  /categories/git/
       - title: "Blog Dev"
-        url: /docs/javascript/
+        url:  /categories/blogdev/
       - title: "Markdown"
-        url: /docs/javascript/
+        url: /categories/markdown/
       - title: "Liquid"
-        url: /docs/javascript/
+        url: /categories/liquid/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"

@@ -3,7 +3,7 @@ title:  "Markdown 문법 정리"
 excerpt: "기본적인 Markdown 문법들을 정리한 내용이다."
 
 categories:
-  - Markdown
+  - markdown
 tags:
   - [Markdown, Github, Git]
 
