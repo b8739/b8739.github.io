@@ -32,7 +32,7 @@ sidenav:
   - title: Projects
     children:
       - title: "인체측정 웹 개발"
-        url: /categories/anthropometric/
+        url: /categories/project_anthropometric/
       - title: "머신러닝 웹 개발"
         url:  /categories/project_ml/
 
