@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "UX 공학자의 블로그"
+title                    : "JX의 Backup Brain"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "UX 공학자의 블로그"
+name                     : "JX의 Backup Brain"
 description              : "UX, Web, HCI, Ergonmics, ML를 위주로 포스팅하는 블로그입니다. "
 url                      : "https://b8739.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -93,15 +93,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "UX 공학자"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "JX"
+  avatar           : "/assets/images/avatar.jpg"
   bio              : "**UX, WEB, ML, HCI** 등에 대해 공부하고 기록하는 공간입니다"
-  location         : "Somewhere"
+  location         : 
   email            :
   links:
     - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      icon: "far fa-envelope"
+      url: "21500661@handong.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
