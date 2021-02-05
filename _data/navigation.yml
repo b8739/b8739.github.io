@@ -2,30 +2,55 @@
 main:
   - title: "Home"
     url: "https://b8739.github.io"
-  - title: "Javascript"
+  - title: "Web"
     url: ""
-  - title: "React"
+  - title: "Design"
     url: ""
-    children:
-         -title: "코딩애플 강의"
-         url: ""
-
-  - title: "Project"
+  - title: "Data Science"
     url: ""
-    children: 
-         -title: "인체측정 웹 개발"
-         url: ""
-         -title: "머신러닝 웹 개발"
-         url: ""
-
   - title: "etc"
     url: ""
+
+#  side바
+sidenav:
+  - title: Front-End
     children:
-         -title: "Git"
-         url: ""
-         -title: "Blog Dev"
-         url: ""
-         
+      - title: "Javascript"
+        url: /docs/quick-start-guide/
+      - title: "React"
+        url: /docs/quick-start-guide/
+
+  - title: Back-End
+    children:
+      - title: "Node-js"
+        url: /docs/quick-start-guide/
+      - title: "Flask"
+        url: /docs/quick-start-guide/
+
+  - title: UX Design
+    children:
+      - title: "UX Case Study"
+        url: /docs/posts/
+      - title: "UI Analysis"
+        url: /docs/pages/
+
+  - title: Projects
+    children:
+      - title: "인체측정 웹 개발"
+        url: /docs/posts/
+      - title: "머신러닝 웹 개발"
+        url: /docs/pages/
+
+  - title: Etc
+    children:
+      - title: "Git"
+        url: /docs/stylesheets/
+      - title: "Blog Dev"
+        url: /docs/javascript/
+      - title: "Markdown"
+        url: /docs/javascript/
+      - title: "Liquid"
+        url: /docs/javascript/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -34,3 +59,4 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+  

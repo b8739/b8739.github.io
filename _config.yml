@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JX의 Backup Brain"
+title                    : "JX의 BACKUP BRAIN 🤯"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "JX의 Backup Brain"
+name                     : "JX의 BACKUP BRAIN 🤯"
 description              : "UX, Web, HCI, Ergonmics, ML를 위주로 포스팅하는 블로그입니다. "
 url                      : "https://b8739.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -99,21 +99,6 @@ author:
   location         : 
   email            :
   links:
-    - label: "Email"
-      icon: "far fa-envelope"
-      url: "21500661@handong.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/jaaeehho/"
@@ -279,6 +264,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
       
  #>>>>>>>>>>>>>>>>>>> 여기서부터 추가 됨
   # _pages 부분입니다.
@@ -289,3 +275,11 @@ defaults:
       layout: single
       author_profile: true
   # >>>>>>>>>>>>>>>>>>>> 여기까지 추가 됨
+  - scope:
+      path: ""
+      # type: docs
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "sidenav"
