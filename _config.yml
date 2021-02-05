@@ -99,6 +99,9 @@ author:
   location         : 
   email            :
   links:
+    - label: "Velog"
+      icon: "fab fa-fw fa-vimeo"
+      url: "https://velog.io/@b8739"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/jaaeehho/"
