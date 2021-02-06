@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://b8739.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://b8739.github.io/" rel="alternate" type="text/html" /><updated>2021-02-06T19:54:31+09:00</updated><id>https://b8739.github.io/feed.xml</id><title type="html">JX의 BACKUP BRAIN 🤯</title><subtitle>UX, Web, HCI, Ergonmics, ML를 위주로 포스팅하는 블로그입니다. </subtitle><author><name>JX</name></author><entry><title type="html">[노트] 한시간만에 끝내는 Vue.js 입문 #1 - 환경세팅</title><link href="https://b8739.github.io/vue/vue-studynote-1/" rel="alternate" type="text/html" title="[노트] 한시간만에 끝내는 Vue.js 입문 #1 - 환경세팅" /><published>2020-02-06T00:00:00+09:00</published><updated>2020-02-06T00:00:00+09:00</updated><id>https://b8739.github.io/vue/vue-studynote#1</id><content type="html" xml:base="https://b8739.github.io/vue/vue-studynote-1/">&lt;p&gt;개발자의 품격 한시간만에 끝내는 Vue.js 입문  (&lt;a href=&quot;https://www.youtube.com/watch?v=sqH0u8wN4Rs&amp;amp;ab_channel=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%92%88%EA%B2%A9,&quot; title=&quot;Youtube Link&quot;&gt;&lt;strong&gt;유튜브 링크&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;vuejs-소개&quot;&gt;Vue.js 소개&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Vue.js는 웹 프론트엔드 프레임워크이다.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컴포넌트 기반의 SPA를 구축할 수 있게 해주는 프레임 워크&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;컴포넌트 (Component)&lt;/strong&gt;&lt;br /&gt;
+	- 웹을 구성하는 로고, 메뉴바, 버튼, 모달창 등 웹페이지 내의 다양한 UI 요소
+    - 재사용 가능하도록 구조화 한 것&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SPA (Single Page Application)&lt;/strong&gt;&lt;br /&gt;
+	- 단일 페이지 어플리케이션
+    - 하나의 페이지 안에서 필요한 영역 부분만 로딩 되는 형태
+    - 빠른 페이지 변환
+    - 적은 트레픽 양&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;cli-통해-vue-설치&quot;&gt;CLI 통해 Vue 설치&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Vue 관리를 편하게 해주는 툴 정도라고 일단 이해&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm install -g @vue/cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vue create test
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/df1098c4-9af4-4ae3-9b60-9bcee82b19f5/image.png&quot; alt=&quot;오류 이미지&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;스크립트 실행 권한이 제한되어 있기 때문에 Windows PowerShell을 관리자 권한으로 실행해야 한다고 한다.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://singa-korean.tistory.com/21,&quot; title=&quot;참고 문서&quot;&gt;참고 문서&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;다음과 같이 입력한다. Set-ExecutionPolicy RemoteSigned&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/cd664c5c-3294-439b-8d65-3d7d5b53f298/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;‘모두 예’ (A) 를 입력&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/6c9db3c5-5542-4649-94eb-22cfa0233750/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;아까와 달리 정상적으로 결과값이 뜨는 것을 확인할 수 있다. 
+이제 Default에 진입.
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/3cf1ebba-a25b-4c8d-ab70-f0af029092e0/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;보이는 것처럼 뭐가 엄청 다운된다.
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/20e0e75e-b714-45ba-990f-b44544d68e40/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;다운이 다 되고나면 입력한대로 ‘test’란 이름의 디렉토리와 내부 파일들이 생성된다.
+리액트 설치할 때 ‘npm create-react-app’란 방법으로 편리하게 개발 환경을 세팅한 것과 같은 맥락이라고 보면 될 것 같다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/aabae2c1-9b78-4f50-88fd-ee4a5df166d5/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;서버-실행-npm-run-serve&quot;&gt;서버 실행 (npm run serve)&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;파란 글씨로 test 폴더로 들어가서 ‘npm run serve’를 실행해보라고 해서 입력해본다.&lt;br /&gt;
+서버가 실행된다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/f9139676-3a76-4e5e-982d-f3ccd963536a/image.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/a9698d5f-de8c-443b-9302-efea99fc1968/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;로컬 8080 서버로 진입해보면 다음과 같은 화면이 나온다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/81c7274a-a8e4-471f-b778-a5e4c7aa354c/image.png&quot; alt=&quot;&quot; /&gt;
+Vue가 정상적으로 설치되었음을 알 수 있다. 
+여기까지는 React 설치과정이랑 매우 흡사하다.&lt;/p&gt;
+
+&lt;p&gt;Vue도 React, Angular와 같이 라우팅으로 화면을 전환하기 때문에 router를 다음과 같이 설치해주어야 한다고 한다. (설치하고 나면 라우팅을 할 수 있는 상태가 된다.)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;router 오류가 나서 npm install -save vue-router 이 커멘드로 다시 설치해주었다.&lt;/strong&gt;&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/18c433f5-525d-40a9-bc91-23ca3bd66a90/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;화면 Layout을 구성하기 위해서 다음과 같이 components폴더 안에 layout폴더를 만들고 그 안에 화면 상단 부분이 될 Header.vue 파일을 생성한다.  &lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/5cb7720e-4d26-48a4-803f-dbab89faac7d/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;bootstrap-가져오기&quot;&gt;Bootstrap 가져오기&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;화면 디자인으로는 Bootstrap을 사용한다. 
+Vue도 React처럼 전용 Bootstrap이 있다고 한다. (&lt;a href=&quot;https://bootstrap-vue.org/&quot;&gt;BootstrapVue&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;BootstrapVue 사이트에 들어간다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/0d1c484e-9843-4553-9719-b63951b33af1/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;사용하기 위해서는 npm을 통해 설치해주어야 한다. (‘npm install vue bootstrap-vue’)
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/0c44d8ba-39c8-4a66-adb1-a74525c03e68/image.png&quot; alt=&quot;&quot; /&gt;
+다운이 다 되고나면, 해당 파일들이 node_modules 폴더 안에 설치되어서, bootstrap을 사용할 수 있는 ‘상태’가 된다.&lt;/p&gt;
+
+&lt;p&gt;그리고 다음 라인들을 main.js 파일 맨 윗 부분에 추가해준다.
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/d0f9d606-8f85-469e-9182-40ca67824f36/image.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/ead35537-01f5-47c3-b2a3-62d90275c8eb/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;template 태그를 입력하려니 snippet이 작동하지 않는다.&lt;br /&gt;
+vscode extension에서 vue snipper을 설치해줘서 사용한다.  &lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/a7856197-d007-45b7-ae4a-bca4238dee5e/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>JX</name></author><category term="vue" /><category term="Vue" /><category term="Vue.js" /><category term="Front-End" /><summary type="html">개발자의 품격 한시간만에 끝내는 Vue.js 입문 (유튜브 링크)</summary></entry><entry><title type="html">머신러닝 웹 개발 프로젝트 소개</title><link href="https://b8739.github.io/project_ml/about_project/" rel="alternate" type="text/html" title="머신러닝 웹 개발 프로젝트 소개" /><published>2020-02-05T00:00:00+09:00</published><updated>2020-02-05T00:00:00+09:00</updated><id>https://b8739.github.io/project_ml/about_project</id><content type="html" xml:base="https://b8739.github.io/project_ml/about_project/">&lt;h1 id=&quot;프로젝트-참여-배경&quot;&gt;프로젝트 참여 배경&lt;/h1&gt;
+&lt;p&gt;현재 내가 인턴으로 소속된 &lt;strong&gt;R&amp;amp;D 회사&lt;/strong&gt;에서 &lt;strong&gt;머신러닝 웹 개발&lt;/strong&gt;을 맡게 되었다.&lt;/p&gt;
+
+&lt;p&gt;설립된 지 2-3년 밖에 안 된 &lt;strong&gt;스타트업 규모의 회사&lt;/strong&gt;이고, 오로지 Data Science 인력으로만 이루어진 회사이기 때문에, &lt;strong&gt;사수나 동기 없이&lt;/strong&gt; 대표님과 1대1로 커뮤니케이션을 해가면서 프로젝트를 진행하고 있다.&lt;/p&gt;
+
+&lt;p&gt;개발에 필요한 내용을 독학하는 것에 있어서 약간의 어려운 부분이 있지만 오히려 &lt;strong&gt;폭 넓은 경험&lt;/strong&gt;을 할 수 있을거라고 기대하고 있다.&lt;/p&gt;
+
+&lt;p&gt;나의 개인 프로젝트가 아니기 때문에 구체적인 정보를 공개할 수는 없지만, 진행하면서 &lt;strong&gt;해결해야 하는 문제나 관련 공부&lt;/strong&gt;에 대해서 포스팅하려고 한다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;프로젝트-목표&quot;&gt;프로젝트 목표&lt;/h1&gt;
+&lt;p&gt;개발하려는 웹 어플리케이션은&lt;/p&gt;
+
+&lt;p&gt;1) &lt;strong&gt;Data Import&lt;/strong&gt;&lt;br /&gt;
+2) &lt;strong&gt;Preprocess&lt;/strong&gt;  &lt;br /&gt;
+3) &lt;strong&gt;EDA&lt;/strong&gt; &lt;br /&gt;
+4) &lt;strong&gt;Modeling&lt;/strong&gt;  &lt;br /&gt;
+5) &lt;strong&gt;Optimize&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;쉽게 말해서 일반적인 머신러닝 웹이다. 인턴 기간이 많이 남지는 않았기 때문에 기본적인 기능 구현이 가능한 &lt;strong&gt;prototype&lt;/strong&gt; 형태의 웹 개발을 목표로 하고 있다.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;관련-프로그래밍-언어지식&quot;&gt;관련 프로그래밍 언어/지식&lt;/h1&gt;
+&lt;ol&gt;
+  &lt;li&gt;Flask (벡엔드 서버를 위한 프레임워크로 사용)&lt;/li&gt;
+  &lt;li&gt;HTML, CSS, Javascript&lt;/li&gt;
+  &lt;li&gt;React (어쩌면 Angular, Vue)&lt;/li&gt;
+  &lt;li&gt;Liquid&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>JX</name></author><category term="project_ml" /><category term="Machine Learning" /><category term="웹 개발" /><category term="Flask" /><summary type="html">현재 진행중인 머신러닝 웹 개발 프로젝트를 소개한다.</summary></entry><entry><title type="html">Markdown 문법 정리</title><link href="https://b8739.github.io/markdown/about-markdown/" rel="alternate" type="text/html" title="Markdown 문법 정리" /><published>2020-02-05T00:00:00+09:00</published><updated>2020-02-05T00:00:00+09:00</updated><id>https://b8739.github.io/markdown/about%20markdown</id><content type="html" xml:base="https://b8739.github.io/markdown/about-markdown/">&lt;!-- header   --&gt;
+&lt;h1 id=&quot;header-헤더&quot;&gt;&lt;strong&gt;Header (헤더)&lt;/strong&gt;&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;사용법&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# h1  
+## h2  
+### h3  
+#### h4  
+##### h5  
+###### h6 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;결과&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+    &lt;h1 id=&quot;h1&quot;&gt;h1&lt;/h1&gt;
+    &lt;h2 id=&quot;h2&quot;&gt;h2&lt;/h2&gt;
+    &lt;h3 id=&quot;h3&quot;&gt;h3&lt;/h3&gt;
+    &lt;h4 id=&quot;h4&quot;&gt;h4&lt;/h4&gt;
+    &lt;h5 id=&quot;h5&quot;&gt;h5&lt;/h5&gt;
+    &lt;h6 id=&quot;h6&quot;&gt;h6&lt;/h6&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- italic   --&gt;
+&lt;h1 id=&quot;italic-기울여-쓰기&quot;&gt;Italic (기울여 쓰기)&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;사용법-1&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;*안녕하세요* OR
+_안녕하세요_
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;결과-1&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;em&gt;안녕하세요&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h1 id=&quot;bold-강조&quot;&gt;Bold (강조)&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;사용법-2&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;**안녕하세요** OR
+__안녕하세요__
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;결과-2&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+    &lt;p&gt;&lt;strong&gt;안녕하세요&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;!-- Blockquote   --&gt;
+&lt;h1 id=&quot;인용-blockquote&quot;&gt;인용 (Blockquote)&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;사용법-3&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;gt;&amp;gt;안녕하세요
+&amp;gt;&amp;gt;&amp;gt;안녕하세요
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;안녕하세요
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;결과-3&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;안녕하세요&lt;/p&gt;
+      &lt;blockquote&gt;
+        &lt;p&gt;안녕하세요&lt;/p&gt;
+        &lt;blockquote&gt;
+          &lt;p&gt;안녕하세요&lt;/p&gt;
+        &lt;/blockquote&gt;
+      &lt;/blockquote&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;!-- List up   --&gt;
+&lt;h1 id=&quot;목록&quot;&gt;목록&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;사용법-4&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+    &lt;p&gt;```&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;부모님
+    &lt;ul&gt;
+      &lt;li&gt;자식
+        &lt;ul&gt;
+          &lt;li&gt;손자
+(*, +, - 전부 가능)
+```&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;결과-4&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;부모님
+    &lt;ul&gt;
+      &lt;li&gt;자식
+        &lt;ul&gt;
+          &lt;li&gt;손자&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;!-- 구분선  --&gt;
+&lt;h1 id=&quot;구분선&quot;&gt;구분선&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;사용법-5&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+    &lt;p&gt;```&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;*
+&lt;strong&gt;*
+**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;**&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;h2 id=&quot;-&quot;&gt;-&lt;/h2&gt;
+        &lt;p&gt;```&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;결과-5&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;*
+&lt;strong&gt;*
+**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;&lt;strong&gt;**&lt;/strong&gt;**&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;h2 id=&quot;--1&quot;&gt;-&lt;/h2&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;!-- 코드블럭  --&gt;
+&lt;h1 id=&quot;코드블럭&quot;&gt;코드블럭&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;사용법-6&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(```) &amp;lt;- 가로는 실제로 입력하면 안됨, `만 입력
+여기에 코드를 집어넣음
+(```)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h2 id=&quot;결과-6&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+    &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;여기에 코드를 집어넣음
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;!-- 링크  --&gt;
+&lt;h1 id=&quot;링크&quot;&gt;링크&lt;/h1&gt;
+&lt;h2 id=&quot;사용법-7&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;'[Title](link)'를 입력하면 됨
+ex. [Naver](https://naver.com, &quot;naver link&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;결과-7&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://naver.com,&quot; title=&quot;naver link&quot;&gt;Naver&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;!-- 이미지  --&gt;
+&lt;h1 id=&quot;이미지&quot;&gt;이미지&lt;/h1&gt;
+&lt;h2 id=&quot;사용법-8&quot;&gt;&lt;strong&gt;사용법&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;'![Alt text](/path/to/img.jpg)'를 입력하면 됨
+ex. ![Alt text](/path/to/img.jpg &quot;Optional title&quot;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h2 id=&quot;결과-8&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/ko/thumb/0/05/Battlegrounds_Cover_Art.png/300px-Battlegrounds_Cover_Art.png&quot; alt=&quot;Alt text&quot; title=&quot;Battle Ground&quot; /&gt;&lt;/p&gt;</content><author><name>JX</name></author><category term="markdown" /><category term="Markdown" /><category term="Github" /><category term="Git" /><summary type="html">기본적인 Markdown 문법들을 정리한 내용이다.</summary></entry></feed>
