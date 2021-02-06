@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://b8739.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://b8739.github.io/" rel="alternate" type="text/html" /><updated>2021-02-06T19:54:31+09:00</updated><id>https://b8739.github.io/feed.xml</id><title type="html">JX의 BACKUP BRAIN 🤯</title><subtitle>UX, Web, HCI, Ergonmics, ML를 위주로 포스팅하는 블로그입니다. </subtitle><author><name>JX</name></author><entry><title type="html">[노트] 한시간만에 끝내는 Vue.js 입문 #1 - 환경세팅</title><link href="https://b8739.github.io/vue/vue-studynote-1/" rel="alternate" type="text/html" title="[노트] 한시간만에 끝내는 Vue.js 입문 #1 - 환경세팅" /><published>2020-02-06T00:00:00+09:00</published><updated>2020-02-06T00:00:00+09:00</updated><id>https://b8739.github.io/vue/vue-studynote#1</id><content type="html" xml:base="https://b8739.github.io/vue/vue-studynote-1/">&lt;p&gt;개발자의 품격 한시간만에 끝내는 Vue.js 입문  (&lt;a href=&quot;https://www.youtube.com/watch?v=sqH0u8wN4Rs&amp;amp;ab_channel=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%92%88%EA%B2%A9,&quot; title=&quot;Youtube Link&quot;&gt;&lt;strong&gt;유튜브 링크&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://b8739.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://b8739.github.io/" rel="alternate" type="text/html" /><updated>2021-02-06T20:04:37+09:00</updated><id>https://b8739.github.io/feed.xml</id><title type="html">JX의 BACKUP BRAIN 🤯</title><subtitle>UX, Web, HCI, Ergonmics, ML를 위주로 포스팅하는 블로그입니다. </subtitle><author><name>JX</name></author><entry><title type="html">[노트] 한시간만에 끝내는 Vue.js 입문 #3 - Data Binding</title><link href="https://b8739.github.io/vue/vue-studynote-3/" rel="alternate" type="text/html" title="[노트] 한시간만에 끝내는 Vue.js 입문 #3 - Data Binding" /><published>2020-02-06T00:00:00+09:00</published><updated>2020-02-06T00:00:00+09:00</updated><id>https://b8739.github.io/vue/vue-studynote#3</id><content type="html" xml:base="https://b8739.github.io/vue/vue-studynote-3/">&lt;p&gt;개발자의 품격 한시간만에 끝내는 Vue.js 입문  (&lt;a href=&quot;https://www.youtube.com/watch?v=sqH0u8wN4Rs&amp;amp;ab_channel=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%92%88%EA%B2%A9,&quot; title=&quot;Youtube Link&quot;&gt;&lt;strong&gt;유튜브 링크&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h3 id=&quot;대략적인-vue-lifecycle-diagram을-이해&quot;&gt;대략적인 Vue Lifecycle Diagram을 이해&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/26afb907-6624-4678-84b0-a6d984b2fed5/image.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/52e55135-ae03-4b01-95b0-e1635dd2de2f/image.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+출처: &lt;a href=&quot;https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram&quot;&gt;Vue 공식 Document&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;데이터-바인딩&quot;&gt;데이터 바인딩&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/53f2a019-a554-4de4-903b-ebc6c1fff82b/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;결과&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/93a48b7a-7870-4769-9ecb-7afb29e0ed5b/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;양방향-데이터-바인딩-two-way&quot;&gt;양방향 데이터 바인딩 (two way)&lt;/h3&gt;
+&lt;p&gt;get버튼을 부르면 console에서 input값을 띄워주고, set버튼을 누르면 지정된 값으로 input값을 바꿔주도록 코드를 작성
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/357db246-a6cf-40c7-8cae-1400ccfd94b7/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;결과-1&quot;&gt;&lt;strong&gt;결과&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;처음에 input창 안에는 abc라고 적혀있고, get을 눌러서 ‘abc’값이 console창의 띄워지고, set을 눌러서 input값이 지정해놓은 ‘12345’값으로 바뀐 화면. 
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/4d351b10-10ff-40fe-87e3-d507f79092db/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;lifecycle에 대해 공부하기 위해서 코드를 이렇게 작성해본다.
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/633883c2-9276-42b5-b0ef-46af6855c974/image.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+화면을 새로고침 해보면, 콘솔창에 다음과 같은 결과가 나온다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/78423b07-6120-4734-a699-d74a442a1baa/image.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+그리고, 데이터로 UI를 바꿔주는 SET버튼을 클릭하면 다음과 같은 결과가 나온다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/cb2fae24-08de-44e3-8450-faeda05a549e/image.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+그리고 직접 데이터를 INPUT창에서 바꿔도 BEFORE UPDATE와 UPDATE가 콘솔창에 뜬다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/65e48460-0a47-4f2c-bd06-01bb4d871f9a/image.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+이처럼, Before update와 update는 &lt;strong&gt;데이터가 변경될 때&lt;/strong&gt; 실행된다는 것을 알 수 있다.&lt;/p&gt;
+
+&lt;p&gt;또한, 사용자와 interaction을 통하지 않고 데이터의 변화를 감시할 수 있는 watch라는 함수도 있다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/b37580ef-272d-4236-b251-503104b979c2/image.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+보이는 것과 같이 input창에 값을 입력할때마다 watch 함수가 이를 감지하고 console창에 띄워주는것을 확인할 수 있다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/9fc2cddc-b4e4-4ff0-9de7-223253ec91a0/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;태그에 더 다양한 @이벤트를 걸 수도 있다.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/c19e24be-63ab-4aed-8267-71e4ddb02986/image.png&quot; alt=&quot;&quot; /&gt;&lt;br /&gt;
+메소드임에도 changeRegion()가 아니라 괄호 없이 changeRegion이라고 적어주면 된다.&lt;/p&gt;</content><author><name>JX</name></author><category term="vue" /><category term="Vue" /><category term="Vue.js" /><category term="Front-End" /><summary type="html">개발자의 품격 한시간만에 끝내는 Vue.js 입문 (유튜브 링크)</summary></entry><entry><title type="html">[노트] 한시간만에 끝내는 Vue.js 입문 #2 - 라우팅 세팅</title><link href="https://b8739.github.io/vue/vue-studynote-2/" rel="alternate" type="text/html" title="[노트] 한시간만에 끝내는 Vue.js 입문 #2 - 라우팅 세팅" /><published>2020-02-06T00:00:00+09:00</published><updated>2020-02-06T00:00:00+09:00</updated><id>https://b8739.github.io/vue/vue-studynote#2</id><content type="html" xml:base="https://b8739.github.io/vue/vue-studynote-2/">&lt;p&gt;개발자의 품격 한시간만에 끝내는 Vue.js 입문  (&lt;a href=&quot;https://www.youtube.com/watch?v=sqH0u8wN4Rs&amp;amp;ab_channel=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%92%88%EA%B2%A9,&quot; title=&quot;Youtube Link&quot;&gt;&lt;strong&gt;유튜브 링크&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;layout/components/~.vue&lt;/strong&gt;: 정적 components&lt;br /&gt;
+&lt;strong&gt;views/ ~.vue(ex. About.vue, Home.vue)&lt;/strong&gt; - 동적 components&lt;br /&gt;
+&lt;strong&gt;App.vue:&lt;/strong&gt; components들로 구성되어 최종적으로 보여질 페이지&lt;br /&gt;
+&lt;strong&gt;main.js&lt;/strong&gt; - 어떤 거를 쓰겠다고 선언해두는 파일로 이해&lt;br /&gt;
+&lt;strong&gt;router.js&lt;/strong&gt; - 라우팅 관리 파일&lt;/p&gt;
+
+&lt;h3 id=&quot;components-생성&quot;&gt;Components 생성&lt;/h3&gt;
+&lt;p&gt;Bootstrap Vue에서 Nav코드를 복사해서 Header.vue에 복사
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/306960ce-944d-4495-b808-8316890b6dfe/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;components-삽입-및-선언&quot;&gt;Components 삽입 및 선언&lt;/h3&gt;
+&lt;p&gt;App.vue에 component를 넣은 위치에 태그를 입력해주고 (빨간색 표시), 노란색으로 표시한 부분처럼 입력해줘야 최종적으로 component를 사용 가능.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://images.velog.io/images/b8739/post/244192bd-08cb-42c5-821c-c553f6a8dc99/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;routing-라우팅&quot;&gt;Routing (라우팅)&lt;/h3&gt;
+&lt;p&gt;고정된 부분은 방금 입력한 Header처럼 사용해주면 되고, 자주 바뀔 컨텐츠 영역에 router코드를 넣어둠. 추후에 about.vue나 home.vue같은 페이지를 만들어서 라우팅 시켜놓으면, 페이지 전체가 로딩되는 것이 아니라 router-view 부분만 해당 페이지로 바뀌게 할 수 있음.&lt;br /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/efb93c7e-ce02-4385-8e8b-8603b203c567/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;routing할-페이지-생성&quot;&gt;Routing할 페이지 생성&lt;/h3&gt;
+&lt;p&gt;view폴더를 만들고 안에 page를 만들어둠 (About.vue, Home.vue 등)
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/f844663a-df25-405e-b9a1-a794bb49001c/image.png&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/65baae42-e4a7-4ac4-a33c-2f99ae204024/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;routejs-정의&quot;&gt;Route.js 정의&lt;/h3&gt;
+&lt;p&gt;들어오는 path마다 어떤 .vue파일을 보여줄지 연결시키는 작업 (맨 밑에 export default를 꼭 적어주어야 된다.)
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/dc8b1c25-f0ef-4f5e-9e9b-02f3f8570818/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;mainjs에-router-내용-추가&quot;&gt;Main.js에 router 내용 추가&lt;/h3&gt;
+
+&lt;p&gt;최종적으로 main.js에 router를 import해오고 사용하겠다고 선언해주어야 페이지에 반영됨.
+마지막 new Vue({…}) 부분 설명: App을 mount할 때 router를 쓰겠다는 의미
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/6d82faa5-25dd-4602-a415-8303daa987a6/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;결과-화면&quot;&gt;결과 화면&lt;/h3&gt;
+&lt;p&gt;Home 페이지
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/0f04a96c-faf2-46fc-90ef-a82764b9818b/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;About 페이지
+&lt;img src=&quot;https://images.velog.io/images/b8739/post/b4a7cfd3-e111-4fe5-9ed7-af51e8caf282/image.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name>JX</name></author><category term="vue" /><category term="Vue" /><category term="Vue.js" /><category term="Front-End" /><summary type="html">개발자의 품격 한시간만에 끝내는 Vue.js 입문 (유튜브 링크)</summary></entry><entry><title type="html">[노트] 한시간만에 끝내는 Vue.js 입문 #1 - 환경세팅</title><link href="https://b8739.github.io/vue/vue-studynote-1/" rel="alternate" type="text/html" title="[노트] 한시간만에 끝내는 Vue.js 입문 #1 - 환경세팅" /><published>2020-02-06T00:00:00+09:00</published><updated>2020-02-06T00:00:00+09:00</updated><id>https://b8739.github.io/vue/vue-studynote#1</id><content type="html" xml:base="https://b8739.github.io/vue/vue-studynote-1/">&lt;p&gt;개발자의 품격 한시간만에 끝내는 Vue.js 입문  (&lt;a href=&quot;https://www.youtube.com/watch?v=sqH0u8wN4Rs&amp;amp;ab_channel=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%ED%92%88%EA%B2%A9,&quot; title=&quot;Youtube Link&quot;&gt;&lt;strong&gt;유튜브 링크&lt;/strong&gt;&lt;/a&gt;)&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;h1 id=&quot;vuejs-소개&quot;&gt;Vue.js 소개&lt;/h1&gt;

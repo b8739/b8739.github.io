@@ -16,4 +16,16 @@ var store = [{
         "tags": ["Vue","Vue.js","Front-End"],
         "url": "https://b8739.github.io/vue/vue-studynote-1/",
         "teaser": null
+      },{
+        "title": "[노트] 한시간만에 끝내는 Vue.js 입문 #2 - 라우팅 세팅",
+        "excerpt":"개발자의 품격 한시간만에 끝내는 Vue.js 입문 (유튜브 링크) layout/components/~.vue: 정적 components views/ ~.vue(ex. About.vue, Home.vue) - 동적 components App.vue: components들로 구성되어 최종적으로 보여질 페이지 main.js - 어떤 거를 쓰겠다고 선언해두는 파일로 이해 router.js - 라우팅 관리 파일 Components 생성 Bootstrap Vue에서 Nav코드를 복사해서 Header.vue에 복사 Components 삽입 및 선언 App.vue에...","categories": ["vue"],
+        "tags": ["Vue","Vue.js","Front-End"],
+        "url": "https://b8739.github.io/vue/vue-studynote-2/",
+        "teaser": null
+      },{
+        "title": "[노트] 한시간만에 끝내는 Vue.js 입문 #3 - Data Binding",
+        "excerpt":"개발자의 품격 한시간만에 끝내는 Vue.js 입문 (유튜브 링크) 대략적인 Vue Lifecycle Diagram을 이해 출처: Vue 공식 Document 데이터 바인딩 결과 양방향 데이터 바인딩 (two way) get버튼을 부르면 console에서 input값을 띄워주고, set버튼을 누르면 지정된 값으로 input값을 바꿔주도록 코드를 작성 결과 처음에 input창 안에는 abc라고 적혀있고, get을 눌러서 ‘abc’값이 console창의 띄워지고, set을...","categories": ["vue"],
+        "tags": ["Vue","Vue.js","Front-End"],
+        "url": "https://b8739.github.io/vue/vue-studynote-3/",
+        "teaser": null
       }]
