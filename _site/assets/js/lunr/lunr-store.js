@@ -28,4 +28,16 @@ var store = [{
         "tags": ["Vue","Vue.js","Front-End"],
         "url": "https://b8739.github.io/vue/vue-studynote-3/",
         "teaser": null
+      },{
+        "title": "Vue 기본 디렉토리 구조",
+        "excerpt":"CLI로 설치한 Vue 디렉토리이다. 가장 자주 사용하는 파일들은 src에 밀집되어 있다. 내부를 살펴보자면 assets 폴더에는 주로 사용하는 이미지 파일이나 css파일이 들어간다. components 폴더에는 페이지를 구성하는 단일 컴포넌트들이 들어간다. router파일에는 라우팅을 관리하는 index.js (or router.js) 파일이 들어간다. Views 폴더에는 앞서 설명한 components 파일속의 컴포넌트로 구성된 ‘page’가 들어간다. (쉽게 설명하면, component 폴더의...","categories": ["vue"],
+        "tags": ["Vue","Vue 디렉토리","Vue 구조"],
+        "url": "https://b8739.github.io/vue/vue-directory_structure/",
+        "teaser": null
+      },{
+        "title": "Vue 기본 스크립트 구조",
+        "excerpt":"회사에서 머신러닝 웹 개발 프로젝트로 Vue를 사용하게 되면서 꽤 많이 익숙해졌다. 문법을 잘못 입력하면 빨간줄이 그어지기 때문에 그때마다 어찌저찌 매번 에러를 수정하기는 했는데, 자잘한 문법들이 헷갈리기 때문에 한번 정리하는 시간을 가져보고자 한다. 가장 기본적으로, Vue 컴포넌트 파일은 template 태그로 시작한다. template 태그를 만들어주고 사이에 div를 넣어주면 된다. (이 div 내부에는...","categories": ["vue"],
+        "tags": ["Vue","Vue 스크립트","Vue 구조"],
+        "url": "https://b8739.github.io/vue/vue-v-script/",
+        "teaser": null
       }]
