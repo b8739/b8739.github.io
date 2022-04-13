@@ -1,21 +1,8 @@
 ---
-layout: post
 title: Apple M1에서 XgBoost 설치하기
-subtitle:
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-category: Python
-
-tags:
-  - python
-  - xgboost
-  - mac
-
 author: Jae
-paginate: true
-toc: true
-toc_sticky: true
-toc_label: "페이지 주요 목차"
+categories: [TIL]
+tags: [python, xgboost, mac]
 ---
 
 작년 회사에 입사하면서 노트북을 구매해주겠다고 해서 당시 출시됐던 Apple M1를 구매해서 1년째 잘 사용하고 있습니다.
