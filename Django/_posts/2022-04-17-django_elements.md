@@ -49,13 +49,13 @@ tags: [django, 인프런 강의]
 8. **Syndication Feeds (Rss/Atom)**
 9. **Sitemaps**
 
-### 장고 기본 앱
+## 장고 기본 앱
 
 앱이란 장고가 규정해놓은 하나의 파이썬 패키지라고 보면 됨
 
 admin, admindocs, auth, contenttypes, flatpages, gis, humanize, messages, postgres, redirects, sessions, sitemaps, sites, staticfiles, sydication
 
-### 웹 애플리케이션 기본 구조
+## 웹 애플리케이션 기본 구조
 
 웹 브라우저
 
