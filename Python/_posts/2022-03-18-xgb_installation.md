@@ -1,7 +1,7 @@
 ---
 title: Apple M1에서 XgBoost 설치하기
 author: Jae
-categories: [TIL]
+categories: [Python]
 tags: [python, xgboost, mac]
 ---
 
