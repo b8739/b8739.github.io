@@ -2,7 +2,7 @@
 title: Apple M1에서 XgBoost 설치하기
 author: Jae
 categories: [Python]
-tags: [python, xgboost, mac]
+tags: [파이썬, xgboost, mac]
 ---
 
 작년 회사에 입사하면서 노트북을 구매해주겠다고 해서 당시 출시됐던 Apple M1를 구매해서 1년째 잘 사용하고 있습니다.
