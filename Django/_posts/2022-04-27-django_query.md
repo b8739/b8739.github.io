@@ -1,7 +1,7 @@
 ---
 title: Django 모델을 통한 조회 (기초)
 author: Jae
-categories: [Django, query]
+categories: [Django]
 tags: [django, 인프런 강의]
 ---
 

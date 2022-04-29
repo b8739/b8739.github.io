@@ -3,7 +3,8 @@
 webfonts: /assets/lib/fonts/main.css
 
 # Libraries
-
+atom:
+  css: /assets/css/syntax.css
 jquery:
   js: /assets/lib/jquery-3.6.0/jquery.min.js
 

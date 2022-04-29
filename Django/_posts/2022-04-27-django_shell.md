@@ -1,7 +1,7 @@
 ---
 title: Django 쉘 (Shell)
 author: Jae
-categories: [Django, shell]
+categories: [Django]
 tags: [django, 인프런 강의]
 ---
 

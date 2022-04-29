@@ -8,6 +8,7 @@ const resource = [
 
   /* --- CSS --- */
   '{{ "/assets/css/style.css" | relative_url }}',
+  '{{ "/assets/css/syntax.css" | relative_url }}',
 
   /* --- PWA --- */
   '{{ "/app.js" | relative_url }}',
