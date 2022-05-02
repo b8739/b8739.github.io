@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: "정재호 기술블로그" # the main title
 
-tagline: "Like its Nothing" # it will display as the sub-title
+tagline: "벽돌을 쌓아가다 보면" # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.

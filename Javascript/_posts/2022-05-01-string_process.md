@@ -5,8 +5,6 @@ categories: [Javascript]
 tags: [javascript, 문자열]
 ---
 
-# \***\*substr, substring, slice 차이\*\***
-
 ## **substr**(시작 인덱스 , 시작 인덱스로부터 자를 길이)
 
 - ex) substr(0,2)라면 0번째와 1번째 인덱스를 잘라내서 substring가 차이가 없어보인다. 하지만 substr(2,4)라면 2번째 인덱스부터 3번째 인덱스를 잘라내는 것이 아니라, 2번째부터 길이 4를 더해서 즉 5번째까지를 잘라내게 된다.
