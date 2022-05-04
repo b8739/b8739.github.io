@@ -86,18 +86,22 @@
   <link rel="dns-prefetch" href="{{ proxy_url }}" />
   {% endif %} {% endif %}
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="{{ site.data.assets[origin].bootstrap.css }}" />
-
   <!-- Font Awesome -->
   <link
     rel="stylesheet"
     href="{{ site.data.assets[origin].fontawesome.css }}"
   />
-
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{{ site.data.assets[origin].bootstrap.css }}" />
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <link
+    href="http://cdn.jsdelivr.net/gh/joungkyun/font-d2coding/d2coding.css"
+    rel="stylesheet"
+    type="text/css"
+  />
   <!-- Atom Code Block CSS -->
-  <!-- <link rel="stylesheet" href="{{  '/assets/css/syntax.css' }}" /> -->
+  <link rel="stylesheet" href="{{  '/assets/css/syntax.css' }}" />
+
   {% if site.toc and page.toc %}
   <link
     rel="stylesheet"

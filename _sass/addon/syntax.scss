@@ -6,29 +6,29 @@
 @import "colors/dark-syntax";
 @import "colors/atom-syntax";
 
-html {
-  @media (prefers-color-scheme: light) {
-    &:not([data-mode]),
-    [data-mode="light"] {
-      @include dark-syntax;
-    }
+// html {
+//   @media (prefers-color-scheme: light) {
+//     &:not([data-mode]),
+//     [data-mode="light"] {
+//       @include atom-syntax;
+//     }
 
-    &[data-mode="dark"] {
-      @include dark-syntax;
-    }
-  }
+//     &[data-mode="dark"] {
+//       @include dark-syntax;
+//     }
+//   }
 
-  @media (prefers-color-scheme: dark) {
-    &:not([data-mode]),
-    &[data-mode="dark"] {
-      @include dark-syntax;
-    }
+//   @media (prefers-color-scheme: dark) {
+//     &:not([data-mode]),
+//     &[data-mode="dark"] {
+//       @include dark-syntax;
+//     }
 
-    &[data-mode="light"] {
-      @include light-syntax;
-    }
-  }
-}
+//     &[data-mode="light"] {
+//       @include light-syntax;
+//     }
+//   }
+// }
 
 /* -- Codes Snippet -- */
 
@@ -63,6 +63,9 @@ $code-radius: 6px;
   @at-root figure#{&} {
     @extend %code-snippet-bg;
   }
+  .p {
+    color: #f8f8f2;
+  }
 
   overflow: auto;
   padding-top: 0.5rem;
@@ -73,6 +76,7 @@ $code-radius: 6px;
     font-size: $code-font-size;
     line-height: 1.4rem;
     word-wrap: normal; /* Fixed Safari overflow-x */
+    color: #212529;
   }
 
   table {
@@ -111,7 +115,9 @@ code {
     font-size: $code-font-size;
     padding: 3px 5px;
     border-radius: 4px;
-    background-color: var(--inline-code-bg);
+    // background-color: var(--inline-code-bg);
+    color: #c7254e;
+    background-color: #f9f2f4;
   }
 
   &.filepath {

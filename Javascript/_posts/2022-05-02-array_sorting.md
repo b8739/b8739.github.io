@@ -22,7 +22,7 @@ console.log(array1);
 
 ## compareFunction (출처: Mozilla)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33c8e471-5899-4f48-944b-f6e862d757e9/Untitled.png)
+![](https://velog.velcdn.com/images/a87380/post/05e9d597-2c60-4af8-8057-1edc5472a9aa/image.png)
 
 즉, 이를 활용해서 함수를 만들어서 넣어주면 되는데, a와 b를 매개변수로 주면 compareFunction은 내부적으로 배열의 모든 원소들을 서로 비교한다.
 
@@ -40,9 +40,11 @@ a가 b보다 큰 경우, 즉 a-b가 0보다 큰 경우, b를 a보다 낮은 인�
 
 ```jsx
 // 원본 배열이 수정됨
-const numbers = [1, 30, 4, 21, 100000]; 
+const numbers = [1, 30, 4, 21, 100000];
 // 오름차순 정렬
-numbers.sort((a, b) => a - b); console.log(numbers); // [1, 4, 21, 30, 100000] 
+numbers.sort((a, b) => a - b);
+console.log(numbers); // [1, 4, 21, 30, 100000]
 // 내림차순 정렬
-numbers.sort((a, b) => b - a); console.log(numbers);// [100000, 30, 21, 4, 1]
+numbers.sort((a, b) => b - a);
+console.log(numbers); // [100000, 30, 21, 4, 1]
 ```
