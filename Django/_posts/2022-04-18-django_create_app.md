@@ -20,7 +20,7 @@ tags: [django, 인프런 강의]
 
 manage.py가 있는 파일 경로에서 다음 명령어 입력
 
-```bash
+```powershell
 python3 manage.py startapp 앱이름 (ex.blog)
 ```
 

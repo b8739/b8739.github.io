@@ -39,26 +39,26 @@ Error message(s): ['dlopen(/usr/local/lib/python3.7/site-packages/xgboost/lib/li
 
 ### Homebrew 설치
 
-```bash
+```powershell
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ### Gcc-6 설치 (다른 버전도 되는 것 같음)
 
-```bash
+```powershell
 brew install gcc --without-multili
 ```
 
 ### llvm, clang-omp 설치 (저는 이 2개는 설치 안해줬는데 작동하더라고요, 안되면 이 둘도 설치해보시기 바랍니다.)
 
-```bash
+```powershell
 brew install llvm
 brew install clang-omp
 ```
 
 ### Xgboost Clone 후 설치
 
-```bash
+```powershell
 git clone --recursive https://github.com/dmlc/xgboost
 cd xgboost; cp make/config.mk ./config.mk; make -j4
 cd python-package; sudo python setup.py install

@@ -1,8 +1,8 @@
 ---
 title: 학교 홈페이지_개발 시작
 author: Jae
-categories: [Javascript]
-tags: [React, Django, 풀스택, 학교 홈페이지]
+categories: [Projects]
+tags: [React, django, 풀스택, 학교 홈페이지]
 ---
 
 학교 홈페이지를 풀스택으로 1인 개발하게 되었다.

@@ -1,8 +1,8 @@
 ---
 title: 학교 홈페이지_트렌드 조사
 author: Jae
-categories: [Javascript]
-tags: [React, Django, 풀스택, 학교 홈페이지]
+categories: [Projects]
+tags: [React, django, 풀스택, 학교 홈페이지]
 ---
 
 # First Page

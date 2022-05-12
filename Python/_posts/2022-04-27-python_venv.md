@@ -7,32 +7,32 @@ tags: [파이썬, 가상환경, jupyter]
 
 ## 가상환경 생성
 
-```bash
+```powershell
 //python3 -m venv (가상환경이름)
 python3 -m venv newEnv
 ```
 
 ## 가상환경 활성화
 
-```bash
+```powershell
 source bin/activate
 ```
 
 ## 가상환경 활성화 하고 ipykernel 설치
 
-```bash
+```powershell
 pip3 install ipykernel
 ```
 
 ipykernel 설치 시 아래 오류가 뜨면
 
-```bash
+```powershell
 ERROR: Could not build wheels for pyzmq which use PEP 517 and cannot be installed directly
 ```
 
 **해결책**
 
-```bash
+```powershell
 pip install --upgrade pip setuptools wheel
 pip install opencv-python
 ```

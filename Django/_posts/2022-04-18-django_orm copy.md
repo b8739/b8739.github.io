@@ -95,19 +95,19 @@ shot 앱
 
 **마이그레이션 파일 생성**
 
-```bash
+```powershell
 python3 manage.py makemigrations 앱이름
 ```
 
 **마이그레이션 파일 적용**
 
-```bash
+```powershell
 python3 manage.py migrate
 ```
 
 **데이터베이스 확인**
 
-```bash
+```powershell
 #sqllite가 생성되어 있다면
 python3 manage.py dbshell
 ```
@@ -118,13 +118,13 @@ python3 manage.py dbshell
 
 인스타그램 이라는 이름의 앱 생성
 
-```bash
+```powershell
 python3 manage.py startapp instagram
 ```
 
 settings.py에 앱 이름 추가
 
-```bash
+```powershell
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -142,7 +142,7 @@ urls.py 직접 추가
 
 안에 다음과 같이 입력
 
-```bash
+```powershell
 urlpatterns = []
 ```
 
@@ -154,7 +154,7 @@ urlpatterns = []
 
 instagram 디렉토리 models.py에 다음과 같이 모델 생성
 
-```bash
+```powershell
 from django.db import models
 
 # Create your models here.
@@ -166,25 +166,25 @@ class Post(models.Model):
 
 ### **마이그레이션 파일 적용**
 
-```bash
+```powershell
 python3 manage.py makemigrations instagram
 ```
 
 오타가 있거나 하면 다음과 같은 에러가 남
 
-```bash
+```powershell
 AttributeError: module 'django.db.models' has no attribute 'Textfield'
 ```
 
 혹은 settings.py에 앱을 추가안해주었거나, 추가해주고 저장을 안해주었다면 다음과 같은 에러
 
-```bash
+```powershell
 No installed app with label 'instagram'.
 ```
 
 성공하면 다음과 같이 뜸
 
-```bash
+```powershell
 Migrations for 'instagram':
   instagram/migrations/0001_initial.py
     - Create model Post
@@ -194,13 +194,13 @@ Migrations for 'instagram':
 
 다음 명령어 입력
 
-```bash
+```powershell
 python3 manage.py migrate instagram
 ```
 
 아래와 같이 뜨면 models.py에 작성한대로 Post라는 테이블이 생성이 된 것
 
-```bash
+```powershell
 Operations to perform:
   Apply all migrations: instagram
 Running migrations:
@@ -209,13 +209,13 @@ Running migrations:
 
 ### 데이터베이스에 들어간 코드 확인
 
-```bash
+```powershell
 python3 manage.py sqlmigrate instagram 0001_initial
 ```
 
 아래와 같은 명령어가 입력된 것을 알 수 있음 (id는 따로 지정안해주었지만 primary key로 자동 생성되어씅ㅁ)
 
-```bash
+```powershell
 BEGIN;
 --
 -- Create model Post
