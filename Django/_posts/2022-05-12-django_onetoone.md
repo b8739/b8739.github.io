@@ -5,6 +5,10 @@ categories: [Django]
 tags: [django, 인프런 강의, sql]
 ---
 
+인프런 **_파이썬/장고 웹서비스 개발 완벽 가이드 with 리액트_** 강의를 보고 정리한 내용입니다.
+
+---
+
 1:1 관계에서 어느 쪽이라도 가능
 
 ForeignKey(unique=True)와 유사하지만, reverse 차이

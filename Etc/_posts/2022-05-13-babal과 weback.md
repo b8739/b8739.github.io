@@ -5,6 +5,10 @@ categories: [Etc]
 tags: [Babel, Webpack]
 ---
 
+인프런 **_파이썬/장고 웹서비스 개발 완벽 가이드 with 리액트_** 강의를 보고 정리한 내용입니다.
+
+---
+
 # babel/webpack의 역할에 대한 간단한 이해
 
 create react-app 명령어에 포함되어 있음

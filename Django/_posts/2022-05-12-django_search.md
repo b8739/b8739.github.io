@@ -5,6 +5,10 @@ categories: [Django]
 tags: [django, 인프런 강의, 검색구현]
 ---
 
+인프런 **_파이썬/장고 웹서비스 개발 완벽 가이드 with 리액트_** 강의를 보고 정리한 내용입니다.
+
+---
+
 각 앱에서 urls.py가 없다면 만들어주고, 프로젝트 urls.py에서 path를 지정해주어야 사용 가능
 
 ```python

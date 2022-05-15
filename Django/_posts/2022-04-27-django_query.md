@@ -5,6 +5,10 @@ categories: [Django]
 tags: [django, 인프런 강의]
 ---
 
+인프런 **_파이썬/장고 웹서비스 개발 완벽 가이드 with 리액트_** 강의를 보고 정리한 내용입니다.
+
+---
+
 ## Model Manager
 
 데이터베이스 질의 인터페이스를 제공

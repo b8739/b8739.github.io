@@ -3,6 +3,7 @@
 }
 .highlight table pre {
   margin: 0;
+  color: #fff;
 }
 .highlight .gh {
   color: #999999;
@@ -31,7 +32,7 @@
   color: #75715e;
 }
 .highlight .c1 {
-  color: #75715e;
+  color: #8299ad;
 }
 .highlight .cs {
   color: #75715e;
@@ -40,7 +41,7 @@
 .highlight .ch,
 .highlight .cd,
 .highlight .cpf {
-  color: #75715e;
+  color: #8299ad;
 }
 .highlight .err {
   color: #960050;
@@ -85,7 +86,7 @@
   color: #ae81ff;
 }
 .highlight .mi {
-  color: #ae81ff;
+  color: #cf9fff;
 }
 .highlight .mo {
   color: #ae81ff;
@@ -131,7 +132,7 @@
   color: #e6db74;
 }
 .highlight .na {
-  color: #a6e22e;
+  color: #ffffff;
 }
 .highlight .nc {
   color: #a6e22e;
@@ -148,50 +149,50 @@
 }
 .highlight .vc {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .nn {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .nl {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .ni {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .bp {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .vg {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .vi {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .nv,
 .highlight .vm {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .w {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .n,
 .highlight .py,
 .highlight .nx {
   color: #ffffff;
-  background-color: #272822;
+  background-color: #383838;
 }
 .highlight .ow {
   color: #f92672;

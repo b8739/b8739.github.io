@@ -5,6 +5,10 @@ categories: [Django]
 tags: [django, 인프런 강의, Foreign Key]
 ---
 
+인프런 **_파이썬/장고 웹서비스 개발 완벽 가이드 with 리액트_** 강의를 보고 정리한 내용입니다.
+
+---
+
 # Django 관계를 표현하는 모델 필드 (ForeignKey)
 
 ORM은 SQL 생성을 도와주는 라이브러리
@@ -188,7 +192,7 @@ post가 1, comment가 N이라고 할 때 `post.comment_set.all()`로 참조 가�
 
 `해결방법`
 
-1. 어느 한 쪽의 FK에 대해, related_name을 포기 → related_name=’+’ → **_+는 related_name을 사용안한다는 의미_**
+1. 어느 한 쪽의 FK에 대해, related*name을 포기 → related_name=’+’ → \*\**+는 related*name을 사용안한다는 의미*\*\*
 2. 어느 한 쪽의 (혹은 모두) FK의 related_name을 변경
    1. ex) FK(User,...,related_name=”blog_post_set”)
    2. ex) FK(User,...,related_name=”shop_post_set”

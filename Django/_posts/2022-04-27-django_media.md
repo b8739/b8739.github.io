@@ -5,6 +5,10 @@ categories: [Django]
 tags: [django, 인프런 강의]
 ---
 
+인프런 **_파이썬/장고 웹서비스 개발 완벽 가이드 with 리액트_** 강의를 보고 정리한 내용입니다.
+
+---
+
 ## Static 파일
 
 개발 리소스로서의 정적인 파일 (js,css,image등)

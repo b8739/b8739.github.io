@@ -45,13 +45,13 @@ INSTALLED_APPS = [
 ]
 ```
 
-```
+```powershell
 python3 manage.py shell_plus --print-sql --ipython
 ```
 
 shell_plus의 장점은 필요한 기본적인 것들을 미리 import해줌
 
-```
+```powershell
 (myenv) jeongjaeho@jeongjaehoui-MacBookPro djangostudy % python3 manage.py shell_plus --print-sql --ipython
 # Shell Plus Model Imports
 from django.contrib.admin.models import LogEntry
