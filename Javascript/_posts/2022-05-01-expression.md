@@ -11,7 +11,7 @@ tags: [javascript, 문자열, 정규표현식]
 
 아래과 같이 사용
 
-```jsx
+```javascript
 ex_str = ex_str.replace(/[매칭패턴]/정규식옵션,'변환 결과')
 ```
 
@@ -26,7 +26,7 @@ ex_str = ex_str.replace(/[매칭패턴]/정규식옵션,'변환 결과')
 
 [] 안의 ^ 는 제외의 의미
 
-```jsx
+```javascript
 ex_str = "abc._a!bc12";
 // 문자를 제외한 것들은 ''로 치환
 ex_str = ex_str.replace(/[^a-z]/g, "");
@@ -35,7 +35,7 @@ ex_str = ex_str.replace(/[^a-z]/g, "");
 
 괄호 밖에 쓰일때는, 시작 문자를 의미
 
-```jsx
+```javascript
 ex_str = "abc";
 // 시작 문자 a를 ''로 치환
 ex_str = ex_str.replace(/^a/g, "");
@@ -46,7 +46,7 @@ ex_str = ex_str.replace(/^a/g, "");
 
 끝 문자를 의미
 
-```jsx
+```javascript
 ex_str = "abc";
 ex_str = ex_str.replace(/c$/, "");
 // 결과: ab
@@ -60,7 +60,7 @@ ex_str = ex_str.replace(/c$/, "");
 
 정규표현식에서 점(.)은 모든 문자열을 나타냄 (줄바꿈 제외)
 
-```jsx
+```javascript
 ex_str = "...";
 // 각 점을 느낌표로 바꾸려고 할 때
 ex_str = ex_str.replace(/./g, "!");
@@ -71,7 +71,7 @@ ex_str = ex_str.replace(/./g, "!");
 
 만약 두 점을 선택하려면 각 점 앞에 역슬래시를 붙임
 
-```jsx
+```javascript
 ex_str = "abc..abc..";
 // abcabc로 변환하려는 상황
 ex_str = ex_str.replace(/\.\./g, "");
@@ -84,14 +84,14 @@ ex_str = ex_str.replace(/\.\./g, "");
 
 위 예시에서 한개 이상의 .을 지우려고 할 때, 아래와 같이 작성해도 똑같은 결과
 
-```jsx
+```javascript
 ex_str = ex_str.replace(/\.+/g, "");
 // 결과: abcabc
 ```
 
 ## 공백을 치환하려 할 때
 
-```jsx
+```javascript
 ex_str = "";
 ex_str = ex_str.replace(/^$/, "a");
 // 결과: a

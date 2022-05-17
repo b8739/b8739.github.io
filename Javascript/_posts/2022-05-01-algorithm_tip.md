@@ -15,7 +15,7 @@ tags: [javascript, algorithm]
 
 상황: report라는 배열을 Set으로 형 변환해서 다시 배열로 만들어줄때
 
-```jsx
+```javascript
 [...new Set(report)];
 ```
 
@@ -23,7 +23,7 @@ tags: [javascript, algorithm]
 
 상황: 없으면 추가, 있으면 기존 값 +1을 하려고 할 때 (undefined인 경우를 핸들링함과 동시에 각 상황에 대한 값을 부여)
 
-```jsx
+```javascript
 let mapList = new Map();
 
 for (const item of itemList) {
@@ -35,7 +35,7 @@ for (const item of itemList) {
 
 filter는 map과 달리 조건을 통과하는 요소들로 새로운 배열을 만들고, 기존 숫자 앞에 !를 붙이면 0이 되기 때문에 다음과 같이 작성하면 0의 길이를 구할 수 있음
 
-```jsx
+```javascript
 const arr = [0, 0, 1, 2];
 arr.filter((v) => !v).length;
 ```

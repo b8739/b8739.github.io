@@ -55,13 +55,13 @@ babel-preset-env
 
 webpack, babel,eslint 등의 기본 설정이 된 리액트 프로젝트 생성
 
-```jsx
+```javascript
 yarn global add create-react-app
 ```
 
 react 앱 실행 (package.json에서 명령어 변경 가능)
 
-```jsx
+```javascript
 yarn start
 ```
 
@@ -71,7 +71,7 @@ yarn start
 
 다음 내용을 작성: jsconfig.json
 
-```jsx
+```javascript
 //jsconfig.json
 {
 	"compileOptions":{

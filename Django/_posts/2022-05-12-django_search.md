@@ -60,7 +60,7 @@ instagram 디렉토리에 수동으로 templates/instagram/post_list.html을 만
 
 post_list.html에는 임시로 다음을 참조해서 화면에 보여주도록 함
 
-```powershell
+```html
 <!-- post_list.html -->
 
 {% raw %}{{post_list}}{% endraw %}
