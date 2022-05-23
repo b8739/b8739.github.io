@@ -1,0 +1,218 @@
+.highlight table td {
+  padding: 5px;
+}
+.highlight table pre {
+  margin: 0;
+  color: #383838;
+}
+.highlight .gh {
+  color: #999999;
+}
+.highlight .sr {
+  color: #f6aa11;
+}
+.highlight .go {
+  color: #888888;
+}
+.highlight .gp {
+  color: #555555;
+}
+.highlight .gs {
+}
+.highlight .gu {
+  color: #aaaaaa;
+}
+.highlight .nb {
+  color: #1b8c3d;
+}
+.highlight .cm {
+  color: #75715e;
+}
+.highlight .cp {
+  color: #75715e;
+}
+.highlight .c1 {
+  color: #8299ad;
+}
+.highlight .cs {
+  color: #75715e;
+}
+.highlight .c,
+.highlight .ch,
+.highlight .cd,
+.highlight .cpf {
+  color: #8299ad;
+}
+.highlight .err {
+  color: #960050;
+}
+.highlight .gr {
+  color: #960050;
+}
+.highlight .gt {
+  color: #960050;
+}
+.highlight .gd {
+  color: #49483e;
+}
+.highlight .gi {
+  color: #49483e;
+}
+.highlight .ge {
+  color: #49483e;
+}
+.highlight .kc {
+  color: #9370db;
+}
+.highlight .kd {
+  color: #4682b4;
+}
+.highlight .kr {
+  color: #4682b4;
+}
+.highlight .no {
+  color: #4682b4;
+}
+.highlight .kt {
+  color: #4682b4;
+}
+.highlight .mf {
+  color: #9370db;
+}
+.highlight .mh {
+  color: #9370db;
+}
+.highlight .il {
+  color: #9370db;
+}
+.highlight .mi {
+  color: #9370db;
+}
+.highlight .mo {
+  color: #9370db;
+}
+.highlight .m,
+.highlight .mb,
+.highlight .mx {
+  color: #9370db;
+}
+.highlight .sc {
+  color: #9370db;
+}
+.highlight .se {
+  color: #9370db;
+}
+.highlight .ss {
+  color: #9370db;
+}
+.highlight .sd {
+  color: #1b8c3d;
+}
+.highlight .s2 {
+  color: #1b8c3d;
+}
+.highlight .sb {
+  color: #1b8c3d;
+}
+.highlight .sh {
+  color: #1b8c3d;
+}
+.highlight .si {
+  color: #1b8c3d;
+}
+.highlight .sx {
+  color: #1b8c3d;
+}
+.highlight .s1 {
+  color: #1b8c3d;
+}
+.highlight .s {
+  color: #4682b4;
+}
+.highlight .sa,
+.highlight .dl {
+  color: #1b8c3d;
+}
+.highlight .na {
+  color: #1b8c3d;
+}
+.highlight .nc {
+  color: #1b8c3d;
+}
+.highlight .nd {
+  color: #1b8c3d;
+}
+.highlight .ne {
+  color: #1b8c3d;
+}
+.highlight .nf,
+.highlight .fm {
+  color: #1b8c3d;
+}
+.highlight .vc {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .nn {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .nl {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .ni {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .bp {
+  color: #9370db;
+  /* background-color: #383838; */
+}
+.highlight .vg {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .vi {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .nv,
+.highlight .vm {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .w {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight {
+  color: #ffffff;
+  /* background-color: #383838; */
+  background-color: #f7f6f3;
+}
+.highlight .n,
+.highlight .py,
+.highlight .nx {
+  color: #383838;
+  /* background-color: #383838; */
+}
+.highlight .ow {
+  color: #e75480;
+}
+.highlight .nt {
+  color: #e75480;
+}
+.highlight .k,
+.highlight .kv {
+  color: #e75480;
+}
+.highlight .kn {
+  color: #e75480;
+}
+.highlight .kp {
+  color: #e75480;
+}
+.highlight .o {
+  color: #e75480;
+}
